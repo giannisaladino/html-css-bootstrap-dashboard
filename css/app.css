@@ -1,0 +1,67 @@
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+menu,
+ul,
+ol {
+	list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+/* LAYOUT */
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+/* STYLE */
+
+header {
+padding: 0 10px;
+}
+
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 75px;
+}
+
+header .mobile-logo {
+    width: 60px;
+    height: 60px;
+}
+
+header input {
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    outline: none;
+}
