@@ -94,9 +94,21 @@ main {
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: baseline;
     gap: 8px;
 }
 
 .sidebar i {
     color: white;
+}
+
+.sidebar span {
+    margin-left: 10px;
+}
+
+
+@media (min-width: 992px) {
+    .sidebar {
+        width: 150px;
+    }
 }
